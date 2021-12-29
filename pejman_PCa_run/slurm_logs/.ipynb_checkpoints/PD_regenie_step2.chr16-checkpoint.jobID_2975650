@@ -1,0 +1,72 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/regenie_analysis
+Start time: Fri Sep 10 14:25:23 2021
+
+              |=============================|
+              |      REGENIE v2.0.2.gz      |
+              |=============================|
+
+Copyright (c) 2020 Joelle Mbatchou and Jonathan Marchini.
+Distributed under the MIT License.
+Compiled with Boost Iostream library.
+Using Intel MKL with Eigen.
+
+Log of output saved in file : /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/regenie_analysis/regenie_output/PD_ukb_step2_BT.chr16.log
+
+Options in effect:
+  --step 2 \
+  --pred /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/regenie_analysis/regenie_output/PD_ukb_step1_BT_pred.list \
+  --bgen /mnt/stsi/stsi1/ptseng/UKBB_Resources/impute_impute4/bgen_links/ukb_imp_chr16_v3.bgen \
+  --sample /mnt/stsi/stsi1/ptseng/UKBB_Resources/impute_impute4/ukbb_impute4.sample \
+  --ref-first \
+  --phenoFile /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/regenie_analysis/regenie_input/PD_pheno.txt \
+  --covarFile /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/regenie_analysis/regenie_input/PD_covar.txt \
+  --bt \
+  --firth \
+  --approx \
+  --bsize 400 \
+  --out /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/regenie_analysis/regenie_output/PD_ukb_step2_BT.chr16
+
+Association testing mode with fast multithreading using OpenMP
+ * bgen             : [/mnt/stsi/stsi1/ptseng/UKBB_Resources/impute_impute4/bgen_links/ukb_imp_chr16_v3.bgen]
+   -summary : bgen file (v1.2 layout, zlib compressed) with 487409 anonymous samples and 3089612 variants with 8-bit encoding.
+   -index bgi file [/mnt/stsi/stsi1/ptseng/UKBB_Resources/impute_impute4/bgen_links/ukb_imp_chr16_v3.bgen.bgi]
+   -sample file: /mnt/stsi/stsi1/ptseng/UKBB_Resources/impute_impute4/ukbb_impute4.sample
+ * phenotypes       : [/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/regenie_analysis/regenie_input/PD_pheno.txt] n_pheno = 1
+   -dropping observations with missing values at any of the phenotypes
+   -number of phenotyped individuals = 487062
+   -number of individuals remaining with non-missing phenotypes = 487062
+ * covariates       : [/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/regenie_analysis/regenie_input/PD_covar.txt] n_cov = 24
+   -number of individuals with covariate data = 487062
+ * number of individuals used in analysis = 487062
+ * LOCO predictions : [/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/regenie_analysis/regenie_output/PD_ukb_step1_BT_pred.list] n_files = 1
+   -file [/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/regenie_analysis/regenie_output/PD_ukb_step1_BT_1.loco] for phenotype 'PD'
+    + 28045 individuals don't have LOCO predictions and will be ignored for the trait
+ * # threads        : [15]
+ * block size       : [400]
+ * # blocks         : [7725]
+ * approximate memory usage : 4GB
+ * using minimum MAC of 5 (variants with lower MAC are ignored)
+ * using fast Firth correction for logistic regression p-values less than 0.05
+
+Chromosome 16 [7725 blocks in total]
+   -reading loco predictions for the chromosome...done (1134ms) 
+   -fitting null logistic regression on binary phenotypes...done (1045ms) 
+   -fitting null Firth logistic regression on binary phenotypes...done (134666ms) 
+ block [1] : done (14721ms) 
+ block [2] : done (13769ms) 
+ block [3] : done (13684ms) 
+ block [4] : done (12488ms) 
+ block [5] : done (10968ms) 
+ block [6] : done (12561ms) 
+ block [7] : done (11444ms) 
+ block [8] : done (10599ms) 
+ block [9] : done (9315ms) 
+ block [10] : done (11418ms) 
+ block [11] : done (11280ms) 
+ block [12] : done (10421ms) 
+ block [13] : done (9160ms) 
+ block [14] : done (12365ms) 
+ block [15] : done (10042ms) 
+ block [16] : done (11872ms) 
+ block [17] : done (11693ms) 
+ block [18] : 

@@ -1,0 +1,12 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/ltfh-regenie/ldpred2
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 122,551,474,140 bytes  received 54 bytes  257,190,921.71 bytes/sec
+total size is 122,521,561,502  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted

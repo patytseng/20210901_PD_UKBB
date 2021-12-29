@@ -1,0 +1,9 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/ltfh-regenie/ldpred2
+Loading required package: bigstatsr
+[1] "Loading bigSNP objects..."
+[1] "DONE"
+[1] "Loading summary statistics..."
+Error in data.table::fread(input, ..., data.table = data.table, nThread = nThread) : 
+  File '/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/exBTs_regenie_phenoCol1_SPA_CADComp.regenie' does not exist or is non-readable. getwd()=='/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/ltfh-regenie/ldpred2'
+Calls: <Anonymous> -> <Anonymous>
+Execution halted

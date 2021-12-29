@@ -1,0 +1,67 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/ukbb_relatedness
+KING 2.2.7 - (c) 2010-2021 Wei-Min Chen
+
+The following parameters are in effect:
+                   Binary File : /mnt/stsi/stsi1/ptseng/UKBB_Resources/filtered_noimpute_bed/ukb_cal_allChrs_prune.bed (-bname)
+
+Additional Options
+         Close Relative Inference : --related, --duplicate
+   Pairwise Relatedness Inference : --kinship, --ibdseg, --ibs, --homog
+              Inference Parameter : --degree [2], --seglength
+         Relationship Application : --unrelated [ON], --cluster, --build
+                        QC Report : --bysample, --bySNP, --roh, --autoQC
+                     QC Parameter : --callrateN, --callrateM
+             Population Structure : --pca, --mds
+              Structure Parameter : --projection, --pcs
+              Disease Association : --tdt
+   Quantitative Trait Association : --mtscore
+                Association Model : --trait [], --covariate []
+            Association Parameter : --invnorm, --maxP
+               Genetic Risk Score : --risk, --model [], --prevalence, --noflip
+              Computing Parameter : --cpus [16]
+                   Optional Input : --fam [], --bim [], --sexchr [23]
+                           Output : --rplot, --pngplot, --plink
+                 Output Parameter :
+                                    --prefix [king_output/king_degree_2_unrelated_],
+                                    --rpath []
+
+KING starts at Tue Nov 16 18:31:22 2021
+Loading genotype data in PLINK binary format...
+Read in PLINK fam file /mnt/stsi/stsi1/ptseng/UKBB_Resources/filtered_noimpute_bed/ukb_cal_allChrs_prune.fam...
+  PLINK pedigrees loaded: 460108 samples
+Read in PLINK bim file /mnt/stsi/stsi1/ptseng/UKBB_Resources/filtered_noimpute_bed/ukb_cal_allChrs_prune.bim...
+  Genotype data consist of 487427 autosome SNPs
+  PLINK maps loaded: 487427 SNPs
+Read in PLINK bed file /mnt/stsi/stsi1/ptseng/UKBB_Resources/filtered_noimpute_bed/ukb_cal_allChrs_prune.bed...
+0%6%13%19%25%31%38%44%50%56%63%69%75%81%88%  PLINK binary genotypes loaded.
+94%  KING format genotype data successfully converted.
+
+Options in effect:
+	--unrelated
+	--degree 2
+	--cpus 16
+	--prefix king_output/king_degree_2_unrelated_
+
+Family clustering starts at Tue Nov 16 18:40:39 2021
+Autosome genotypes stored in 7617 words for each of 460108 individuals.
+Sorting autosomes...
+Total length of 40 chromosomal segments usable for IBD segment analysis is 2657.1 Mb.
+  Information of these chromosomal segments can be found in file king_output/king_degree_2_unrelated_allsegs.txt
+
+16 CPU cores are used to compute the pairwise kinship coefficients...
+0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%Clustering up to 2nd-degree relatives in families...
+Individual IDs are unique across all families.
+
+Relationship summary (total relatives: 0 by pedigree, 39277 by inference)
+        	MZ	PO	FS	2nd
+  =====================================================
+  Inference	170	6019	21835	11253
+
+Families are clustered into 31015 new families
+
+A list of 425321 unrelated individuals saved in file king_output/king_degree_2_unrelated_unrelated.txt
+An alternative list of 34787 to-be-removed individuals saved in file king_output/king_degree_2_unrelated_unrelated_toberemoved.txt
+
+Extracting a subset of unrelated individuals ends at Tue Nov 16 19:26:23 2021
+KING ends at Tue Nov 16 19:26:23 2021
+

@@ -1,0 +1,15 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/ltfh-regenie/ldpred2
+mkdir: cannot create directory ‘/scratch_ssd/temp’: File exists
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 136,730,111,751 bytes  received 54 bytes  243,508,658.60 bytes/sec
+total size is 136,696,738,384  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/H4b_msR-BIGsegRuClSMp_H.chk’: Operation not permitted
+rm: cannot remove ‘/scratch_ssd/H4b_msR-BIGsegRuClSMp_H.gjf’: Operation not permitted
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted

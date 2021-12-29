@@ -1,0 +1,22 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/ltfh-regenie/ldpred2
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 14,356,243,836 bytes  received 54 bytes  249,673,806.78 bytes/sec
+total size is 14,352,739,618  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/H4b_msR-BIGsegRuClSMp_H.chk’: Operation not permitted
+rm: cannot remove ‘/scratch_ssd/H4b_msR-BIGsegRuClSMp_H.gjf’: Operation not permitted
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted
+rm: cannot remove ‘/scratch_ssd/picard/MESA_phs001416_TOPMed_WGS_freeze.8.chr10.hg38.hg19.vcf.gz’: Permission denied
+rm: cannot remove ‘/scratch_ssd/picard/.MESA_phs001416_TOPMed_WGS_freeze.8.chr16.hg38.hg19.vcf.gz.iV6L2z’: Permission denied
+rm: cannot remove ‘/scratch_ssd/picard/MESA_phs001416_TOPMed_WGS_freeze.8.chr1.hg38.hg19.vcf.gz’: Permission denied
+rm: cannot remove ‘/scratch_ssd/picard/MESA_phs001416_TOPMed_WGS_freeze.8.chr12.hg38.hg19.vcf.gz’: Permission denied
+rm: cannot remove ‘/scratch_ssd/picard/MESA_phs001416_TOPMed_WGS_freeze.8.chr14.hg38.hg19.vcf.gz’: Permission denied
+rm: cannot remove ‘/scratch_ssd/picard/MESA_phs001416_TOPMed_WGS_freeze.8.chr11.hg38.hg19.vcf.gz’: Permission denied
+rm: cannot remove ‘/scratch_ssd/picard/MESA_phs001416_TOPMed_WGS_freeze.8.chr13.hg38.hg19.vcf.gz’: Permission denied
+rm: cannot remove ‘/scratch_ssd/picard/MESA_phs001416_TOPMed_WGS_freeze.8.chr15.hg38.hg19.vcf.gz’: Permission denied

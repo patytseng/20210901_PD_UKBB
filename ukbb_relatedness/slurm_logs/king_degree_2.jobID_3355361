@@ -1,0 +1,34 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/ukbb_relatedness
+KING 2.2.7 - (c) 2010-2021 Wei-Min Chen
+
+The following parameters are in effect:
+                   Binary File : /mnt/stsi/stsi1/ptseng/UKBB_Resources/filtered_noimpute_bed/ukb_cal_allChrs_prune.bed (-bname)
+
+Additional Options
+         Close Relative Inference : --related [ON], --duplicate
+   Pairwise Relatedness Inference : --kinship, --ibdseg, --ibs, --homog
+              Inference Parameter : --degree [2], --seglength
+         Relationship Application : --unrelated, --cluster, --build
+                        QC Report : --bysample, --bySNP, --roh, --autoQC
+                     QC Parameter : --callrateN, --callrateM
+             Population Structure : --pca, --mds
+              Structure Parameter : --projection, --pcs
+              Disease Association : --tdt
+   Quantitative Trait Association : --mtscore
+                Association Model : --trait [], --covariate []
+            Association Parameter : --invnorm, --maxP
+               Genetic Risk Score : --risk, --model [], --prevalence, --noflip
+              Computing Parameter : --cpus
+                   Optional Input : --fam [], --bim [], --sexchr [23]
+                           Output : --rplot, --pngplot, --plink
+                 Output Parameter : --prefix [king], --rpath []
+
+KING starts at Tue Sep 28 16:30:59 2021
+Loading genotype data in PLINK binary format...
+Read in PLINK fam file /mnt/stsi/stsi1/ptseng/UKBB_Resources/filtered_noimpute_bed/ukb_cal_allChrs_prune.fam...
+  PLINK pedigrees loaded: 460108 samples
+Read in PLINK bim file /mnt/stsi/stsi1/ptseng/UKBB_Resources/filtered_noimpute_bed/ukb_cal_allChrs_prune.bim...
+  Genotype data consist of 487427 autosome SNPs
+  PLINK maps loaded: 487427 SNPs
+Read in PLINK bed file /mnt/stsi/stsi1/ptseng/UKBB_Resources/filtered_noimpute_bed/ukb_cal_allChrs_prune.bed...
+0%6%13%slurmstepd: error: *** JOB 3355361 ON imsb0515 CANCELLED AT 2021-09-28T16:33:02 ***

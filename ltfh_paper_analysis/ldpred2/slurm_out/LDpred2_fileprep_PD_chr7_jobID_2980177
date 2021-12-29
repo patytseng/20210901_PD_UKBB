@@ -1,0 +1,14 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/ltfh_paper_analysis/ldpred2
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 109,047,329,509 bytes  received 54 bytes  284,347,665.09 bytes/sec
+total size is 109,020,712,982  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/IPt1_br4_S_NCterm_D614_S5-A1_1_2559.d’: Operation not permitted
+rm: cannot remove ‘/scratch_ssd/log_1.txt’: Operation not permitted
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted

@@ -1,0 +1,24 @@
+#!/bin/bash
+#SBATCH 
+
+# module loading
+module purge
+module load R
+
+# current directory
+pwd
+
+# commands start
+mkdir /mnt/stsi/stsi1/ptseng/UKBB_Resources/ldpred2/chr${chr}
+mkdir /scratch_ssd/temp
+
+Rscript ldpred2_fileprep.r \
+    --chromosome ${chr} \
+    --file ../PD_ukb_step2_BT_ltfh.regenie.corrected.reduced \
+    --CHR CHROM \
+    --POS GENPOS \
+    --A0 ALLELE0 \
+    --A1 ALLELE1 \
+
+rsync -rtv /scratch_ssd/temp.* /mnt/stsi/stsi1/ptseng/UKBB_Resources/ldpred2/chr${chr}/
+rm -rf /scratch_ssd/*

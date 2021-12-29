@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# module loading
+module purge
+module load gcc
+
+# current directory
+pwd
+
+# commands start
+~/king \
+    -b /mnt/stsi/stsi1/ptseng/UKBB_Resources/filtered_noimpute_bed/ukb_cal_allChrs_prune.bed \
+    --related \
+    --degree ${degree} \
+    --prefix king_output/king_degree_${degree} \
+    --cpus 16 \

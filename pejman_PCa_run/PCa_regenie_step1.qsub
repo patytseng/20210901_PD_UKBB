@@ -1,0 +1,28 @@
+#!/bin/bash
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=7-00:00:00
+#SBATCH --mem=60G
+#SBATCH --partition=shared
+#SBATCH --job-name=PCa_regenie_step1
+#SBATCH --out=slurm_logs/%x.jobID_%j
+
+# module loading
+module purge
+module load regenie/2.0.2
+
+# current directory
+pwd
+
+# commands start
+regenie \
+    --step 1 \
+    --bed /mnt/stsi/stsi1/ptseng/UKBB_Resources/filtered_noimpute_bed/ukb_cal_allChrs_prune \
+    --phenoFile /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_input/PCa_pheno.txt \
+    --covarFile /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_input/PCa_covar.txt \
+    --remove /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_input/remove_merge.txt \
+    --exclude /mnt/stsi/stsi1/ptseng/UKBB_Resources/ID_list/ICLD_low-complexity.exclude \
+    --bt \
+    --bsize 1000 \
+    --out /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_output/PCa_ukb_step1_BT

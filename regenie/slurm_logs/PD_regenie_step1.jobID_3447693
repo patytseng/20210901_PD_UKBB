@@ -1,0 +1,35 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/regenie
+Start time: Wed Oct 13 14:26:21 2021
+
+              |=============================|
+              |      REGENIE v2.0.2.gz      |
+              |=============================|
+
+Copyright (c) 2020 Joelle Mbatchou and Jonathan Marchini.
+Distributed under the MIT License.
+Compiled with Boost Iostream library.
+Using Intel MKL with Eigen.
+
+Log of output saved in file : /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/regenie/regenie_output/PD_ukb_step1_BT.log
+
+Options in effect:
+  --step 1 \
+  --bed /mnt/stsi/stsi1/ptseng/UKBB_Resources/filtered_noimpute_bed/ukb_cal_allChrs_prune \
+  --phenoFile /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/regenie/regenie_input/PD_ltfh.txt \
+  --covarFile /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/regenie/regenie_input/PD_covar.txt \
+  --remove /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/ukbb_relatedness/remove_IDs.txt \
+  --exclude /mnt/stsi/stsi1/ptseng/UKBB_Resources/ID_list/ICLD_low-complexity.exclude \
+  --bsize 1000 \
+  --out /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/regenie/regenie_output/PD_ukb_step1_BT
+
+Fitting null model
+ * bim              : [/mnt/stsi/stsi1/ptseng/UKBB_Resources/filtered_noimpute_bed/ukb_cal_allChrs_prune.bim] n_snps = 487427
+   -removing variants specified in [/mnt/stsi/stsi1/ptseng/UKBB_Resources/ID_list/ICLD_low-complexity.exclude]
+     +number of variants remaining in the analysis = 487427
+ * fam              : [/mnt/stsi/stsi1/ptseng/UKBB_Resources/filtered_noimpute_bed/ukb_cal_allChrs_prune.fam] n_samples = 460108
+   -removing individuals specified in [/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/ukbb_relatedness/remove_IDs.txt]
+     +number of genotyped individuals to exclude from the analysis = 36378
+ * bed              : [/mnt/stsi/stsi1/ptseng/UKBB_Resources/filtered_noimpute_bed/ukb_cal_allChrs_prune.bed]
+ * phenotypes       : [/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/regenie/regenie_input/PD_ltfh.txt] n_pheno = 1
+   -dropping observations with missing values at any of the phenotypes
+ERROR: Incorrectly formatted phenotype file.

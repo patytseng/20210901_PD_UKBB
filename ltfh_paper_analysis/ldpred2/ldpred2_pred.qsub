@@ -1,0 +1,19 @@
+#!/bin/bash
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --time=7-00:00:00
+#SBATCH --mem=240GB
+#SBATCH --partition=highmem
+#SBATCH --job-name=LDpred2_pred_PD
+#SBATCH --out=slurm_out/%x_jobID_%j
+
+# module loading
+module purge
+module load R
+
+# current directory
+pwd
+
+# commands start
+Rscript ldpred2_last.r

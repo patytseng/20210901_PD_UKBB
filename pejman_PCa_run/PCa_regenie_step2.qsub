@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# module loading
+module purge
+module load regenie/2.0.2
+
+# current directory
+pwd
+
+# commands start
+regenie \
+    --step 2 \
+    --pred /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_output/PCa_ukb_step1_BT_pred.list \
+    --bgen /mnt/stsi/stsi1/ptseng/UKBB_Resources/impute_impute4/bgen_links/ukb_imp_chr${chrom}_v3.bgen \
+    --sample /mnt/stsi/stsi1/ptseng/UKBB_Resources/impute_impute4/ukbb_impute4.sample \
+    --ref-first \
+    --phenoFile /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_input/PCa_pheno.txt \
+    --covarFile /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_input/PCa_covar.txt \
+    --bt \
+    --spa \
+    --bsize 400 \
+    --out /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_output/PCa_ukb_step2_BT.chr${chrom};
+

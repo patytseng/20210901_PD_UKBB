@@ -1,0 +1,12 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/ltfh-regenie/ldpred2
+sending incremental file list
+rsync: link_stat "/mnt/stsi/stsi1/ptseng/UKBB_Resources/ldpred2/chr9/temp.*" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Loading required package: bigstatsr
+[1] "Grabbing bigSNP Object..."
+Error: File '/scratch_ssd/temp.rds' doesn't exist.
+Execution halted
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted

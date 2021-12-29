@@ -1,0 +1,36 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/ltfh-regenie/ldpred2
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 27,749,926,039 bytes  received 54 bytes  270,730,986.27 bytes/sec
+total size is 27,743,152,669  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/datafiles/b/ALL.chr5.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz’: Permission denied
+rm: cannot remove ‘/scratch_ssd/datafiles/b/ALL.chr4.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.rec’: Permission denied
+rm: cannot remove ‘/scratch_ssd/datafiles/b/ALL.chr4.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz’: Permission denied
+rm: cannot remove ‘/scratch_ssd/datafiles/b/ALL.chr4.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.m3vcf.gz’: Permission denied
+rm: cannot remove ‘/scratch_ssd/datafiles/b/ALL.chr4.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.clean.vcf.gz.tbi’: Permission denied
+rm: cannot remove ‘/scratch_ssd/datafiles/b/ALL.chr5.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.samples’: Permission denied
+rm: cannot remove ‘/scratch_ssd/datafiles/b/ALL.chr5.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.erate’: Permission denied
+rm: cannot remove ‘/scratch_ssd/datafiles/b/ALL.chr4.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.bcf’: Permission denied
+rm: cannot remove ‘/scratch_ssd/datafiles/b/ALL.chr5.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.clean.vcf.gz.tbi’: Permission denied
+rm: cannot remove ‘/scratch_ssd/datafiles/b/ALL.chr4.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.erate’: Permission denied
+rm: cannot remove ‘/scratch_ssd/datafiles/b/ALL.chr5.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.m3vcf.gz’: Permission denied
+rm: cannot remove ‘/scratch_ssd/datafiles/b/ALL.chr5.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.bcf’: Permission denied
+rm: cannot remove ‘/scratch_ssd/datafiles/b/ALL.chr4.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.hap.gz’: Permission denied
+rm: cannot remove ‘/scratch_ssd/datafiles/b/ALL.chr4.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.clean.vcf.gz’: Permission denied
+rm: cannot remove ‘/scratch_ssd/datafiles/b/ALL.chr5.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz.tbi’: Permission denied
+rm: cannot remove ‘/scratch_ssd/datafiles/b/ALL.chr4.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.legend.gz’: Permission denied
+rm: cannot remove ‘/scratch_ssd/datafiles/b/ALL.chr5.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.legend.gz’: Permission denied
+rm: cannot remove ‘/scratch_ssd/datafiles/b/ALL.chr5.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.hap.gz’: Permission denied
+rm: cannot remove ‘/scratch_ssd/datafiles/b/ALL.chr5.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.bcf.csi’: Permission denied
+rm: cannot remove ‘/scratch_ssd/datafiles/b/ALL.chr5.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.rec’: Permission denied
+rm: cannot remove ‘/scratch_ssd/datafiles/b/ALL.chr4.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.bcf.csi’: Permission denied
+rm: cannot remove ‘/scratch_ssd/datafiles/b/ALL.chr5.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.clean.vcf.gz’: Permission denied
+rm: cannot remove ‘/scratch_ssd/datafiles/b/ALL.chr4.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz.tbi’: Permission denied
+rm: cannot remove ‘/scratch_ssd/datafiles/b/ALL.chr4.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.samples’: Permission denied
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted

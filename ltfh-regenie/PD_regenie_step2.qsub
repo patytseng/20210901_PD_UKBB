@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# module loading
+module purge
+module load regenie/2.0.2
+
+# current directory
+pwd
+
+# commands start
+regenie \
+    --step 2 \
+    --pred regenie_output/PD_ukb_step1_LTFH_pred.list \
+    --bgen /mnt/stsi/stsi1/ptseng/UKBB_Resources/impute_impute4/bgen_links/ukb_imp_chr${chrom}_v3.bgen \
+    --sample /mnt/stsi/stsi1/ptseng/UKBB_Resources/impute_impute4/ukbb_impute4.sample \
+    --ref-first \
+    --phenoFile regenie_input/PD_ltfh.txt \
+    --covarFile regenie_input/PD_covar.txt \
+    --remove /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/ukbb_relatedness/king_output/king_degree_5_unrelatedunrelated_toberemoved.txt \
+    --bsize 400 \
+    --out regenie_output/PD_ukb_step2_LTFH.chr${chrom};

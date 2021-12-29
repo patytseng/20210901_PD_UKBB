@@ -1,0 +1,57 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run
+Start time: Tue Nov  9 16:57:15 2021
+
+              |=============================|
+              |      REGENIE v2.0.2.gz      |
+              |=============================|
+
+Copyright (c) 2020 Joelle Mbatchou and Jonathan Marchini.
+Distributed under the MIT License.
+Compiled with Boost Iostream library.
+Using Intel MKL with Eigen.
+
+Log of output saved in file : /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_output/PCa_ukb_step2_BT.chr2.log
+
+Options in effect:
+  --step 2 \
+  --pred /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_output/PCa_ukb_step1_BT_pred.list \
+  --bgen /mnt/stsi/stsi1/ptseng/UKBB_Resources/impute_impute4/bgen_links/ukb_imp_chr2_v3.bgen \
+  --sample /mnt/stsi/stsi1/ptseng/UKBB_Resources/impute_impute4/ukbb_impute4.sample \
+  --ref-first \
+  --phenoFile /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_input/PCa_pheno.txt \
+  --covarFile /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_input/PCa_covar.txt \
+  --bt \
+  --firth \
+  --approx \
+  --bsize 400 \
+  --out /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_output/PCa_ukb_step2_BT.chr2
+
+Association testing mode with fast multithreading using OpenMP
+ * bgen             : [/mnt/stsi/stsi1/ptseng/UKBB_Resources/impute_impute4/bgen_links/ukb_imp_chr2_v3.bgen]
+   -summary : bgen file (v1.2 layout, zlib compressed) with 487409 anonymous samples and 8129063 variants with 8-bit encoding.
+   -index bgi file [/mnt/stsi/stsi1/ptseng/UKBB_Resources/impute_impute4/bgen_links/ukb_imp_chr2_v3.bgen.bgi]
+   -sample file: /mnt/stsi/stsi1/ptseng/UKBB_Resources/impute_impute4/ukbb_impute4.sample
+ * phenotypes       : [/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_input/PCa_pheno.txt] n_pheno = 1
+   -dropping observations with missing values at any of the phenotypes
+   -number of phenotyped individuals = 487062
+   -number of individuals remaining with non-missing phenotypes = 487062
+ * covariates       : [/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_input/PCa_covar.txt] n_cov = 24
+   -number of individuals with covariate data = 487062
+ * number of individuals used in analysis = 487062
+ * LOCO predictions : [/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_output/PCa_ukb_step1_BT_pred.list] n_files = 1
+   -file [/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_output/PCa_ukb_step1_BT_1.loco] for phenotype 'PCa'
+    + 319034 individuals don't have LOCO predictions and will be ignored for the trait
+ * # threads        : [15]
+ * block size       : [400]
+ * # blocks         : [20323]
+ * approximate memory usage : 5GB
+ * using minimum MAC of 5 (variants with lower MAC are ignored)
+ * using fast Firth correction for logistic regression p-values less than 0.05
+
+Chromosome 2 [20323 blocks in total]
+   -reading loco predictions for the chromosome...done (303ms) 
+   -fitting null logistic regression on binary phenotypes...done (727ms) 
+   -fitting null Firth logistic regression on binary phenotypes...WARNING: Logistic regression with Firth correction did not converge (maximum step size=25;maximum number of iterations=1000).
+Retrying with fallback parameters: (maximum step size=5;maximum number of iterations=5000).
+WARNING: Logistic regression with Firth correction did not converge (maximum step size=5;maximum number of iterations=5000).
+ERROR: Firth penalized logistic regression failed to converge for phenotype: PCa. Try decreasing the maximum step size using `--maxstep-null` (currently=5) and increasing the maximum number of iterations using `--maxiter-null` (currently=5000).

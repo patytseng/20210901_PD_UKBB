@@ -1,0 +1,44 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run
+Start time: Thu Oct 21 19:00:25 2021
+
+              |=============================|
+              |      REGENIE v2.0.2.gz      |
+              |=============================|
+
+Copyright (c) 2020 Joelle Mbatchou and Jonathan Marchini.
+Distributed under the MIT License.
+Compiled with Boost Iostream library.
+Using Intel MKL with Eigen.
+
+Log of output saved in file : /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_output/PCa_ukb_step2_BT.chr6.log
+
+Options in effect:
+  --step 2 \
+  --pred /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_output/PCa_ukb_step1_BT_pred.list \
+  --bgen /mnt/stsi/stsi1/ptseng/UKBB_Resources/impute_impute4/bgen_links/ukb_imp_chr6_v3.bgen \
+  --sample /mnt/stsi/stsi1/ptseng/UKBB_Resources/impute_impute4/ukbb_impute4.sample \
+  --ref-first \
+  --phenoFile /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_input/PCa_pheno.txt \
+  --covarFile /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_input/PCa_covar.txt \
+  --remove /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/ukbb_relatedness/remove_IDs.txt \
+  --exclude /mnt/stsi/stsi1/ptseng/UKBB_Resources/ID_list/ICLD_low-complexity.exclude \
+  --bsize 400 \
+  --out /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_output/PCa_ukb_step2_BT.chr6
+
+Association testing mode with fast multithreading using OpenMP
+ * bgen             : [/mnt/stsi/stsi1/ptseng/UKBB_Resources/impute_impute4/bgen_links/ukb_imp_chr6_v3.bgen]
+   -summary : bgen file (v1.2 layout, zlib compressed) with 487409 anonymous samples and 5751712 variants with 8-bit encoding.
+   -index bgi file [/mnt/stsi/stsi1/ptseng/UKBB_Resources/impute_impute4/bgen_links/ukb_imp_chr6_v3.bgen.bgi]
+   -removing variants specified in [/mnt/stsi/stsi1/ptseng/UKBB_Resources/ID_list/ICLD_low-complexity.exclude]
+     +number of variants remaining in the analysis = 5749438
+   -sample file: /mnt/stsi/stsi1/ptseng/UKBB_Resources/impute_impute4/ukbb_impute4.sample
+   -removing individuals specified in [/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/ukbb_relatedness/remove_IDs.txt]
+     +number of genotyped individuals to exclude from the analysis = 36293
+ * phenotypes       : [/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_input/PCa_pheno.txt] n_pheno = 1
+   -dropping observations with missing values at any of the phenotypes
+   -number of phenotyped individuals = 450796
+   -number of individuals remaining with non-missing phenotypes = 450796
+ * covariates       : [/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_input/PCa_covar.txt] n_cov = 24
+   -number of individuals with covariate data = 450796
+ * number of individuals used in analysis = 450796
+ * LOCO predictions : [/gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_output/PCa_ukb_step1_BT_pred.list] ERROR: Cannot open file : /gpfs/home/ptseng/Torkamani_Projects/20210901_PD_UKBB/pejman_PCa_run/regenie_output/PCa_ukb_step1_BT_pred.list
